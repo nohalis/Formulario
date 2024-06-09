@@ -3,6 +3,7 @@ import Formulario from "../components/Formulario";
 import Header from "../components/Header";
 import Alerta from "../components/Alerta";
 import SocialButton from "../components/SocialButton";
+import Email from "../components/Email";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const Registro = ({ setAlertMessage }) => {
@@ -21,6 +22,7 @@ const Registro = ({ setAlertMessage }) => {
         <SocialButton button={"fa-github"} />
         <SocialButton button={"fa-linkedin"} />
       </div>
+      <Email emailText="o usa tu email para registrarte" />
       <Formulario handleAlerta={handleAlerta} />
       <Alerta colorAlert={alerta.colorAlert} textAlert={alerta.textAlert} />
     </div>
