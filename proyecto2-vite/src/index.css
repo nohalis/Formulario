@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: sans-serif;
+  background-image: linear-gradient(
+    to right,
+    hsl(323, 100%, 84%),
+    hwb(327 35% 5%),
+    hsl(320, 57%, 56%)
+  );
+}
+
+.cardStyle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px none;
+  padding: 0.5em 2em 2em 2em;
+  border-radius: 20px;
+  height: 40em;
+  width: 24em;
+  background-color: white;
+}
+
+.iconStyle {
+  display: flex;
+  justify-content: center;
+}
+
+.formStyle {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.buttonStyle {
+  padding: 0.5em 4.2em 0.5em 4.2em;
+  margin-bottom: 1em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+#alerta {
+  box-sizing: border-box;
+  font-size: 1em;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 100vh;
+}
+
+.header {
+  font-size: 2.3em;
+  padding-top: 1em;
+  width: 100%;
+}
+
+.texto {
+  font-size: 1em;
+  padding: 0.5em 0em 0.5em 0em;
+}
